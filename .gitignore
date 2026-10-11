@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+env/
+
+# Datasets and Large Binary Volumes (Never committed to git)
+*.nii
+*.nii.gz
+*.dcm
+medsegxai/data/prepared_frames/
+medsegxai/data/raw_nifti/
+
+# Large Model Weights
+*.pt
+*.pth
+*.bin
+weights/
+checkpoints/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
