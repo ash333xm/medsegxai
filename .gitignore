@@ -24,3 +24,6 @@ checkpoints/
 Thumbs.db
 .vscode/
 .idea/
+
+*.npy
+*.npz
